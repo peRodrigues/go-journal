@@ -1,6 +1,6 @@
 # Variáveis e Constantes em Golang
 
-Em Go, variáveis e constantes são fundamentais para armazenar e manipular dados. Vamos explorar cada uma delas em detalhes.
+Em Go, variáveis e constantes são fundamentais para armazenar e manipular dados. Vamos explorar cada uma delas em detalhes. Esses "containers" para armazenar e manipular dados, após declarados, escolhem randomicamente um espaço na memória ram, porém, mesmo que essa escolha seja aleatória, existe um nome que faz referência ao valor armazenado.
 
 ## Variáveis
 

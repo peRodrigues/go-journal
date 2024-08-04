@@ -2,8 +2,14 @@ package exercicios
 
 import "fmt"
 
-func Ex001(a, b int) {
-	// Faça um algoritmo que leia dois números inteiro, calcule a soma destes números e imprima o resultado no final
-	soma := a + b
-	fmt.Printf("1 - A soma entre %v e %v resulta em %v.\n", a, b, soma)
+func Ex001() {
+	fmt.Println("ex001:")
+	// Atribua valores às variáveis e demonstre com uma e múltiplas declarações print
+	nome := "Pedro"
+	idade := 17
+	programador := true
+	fmt.Println(nome)
+	fmt.Println(idade)
+	fmt.Println(programador)
+	fmt.Println(nome, idade, programador)
 } 
