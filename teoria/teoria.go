@@ -2,9 +2,11 @@ package teoria
 
 import (
 	"fmt"
-	arraysslices "github.com/peRodrigues/go-journal/teoria/arrays-slices"
-	tiposdedados "github.com/peRodrigues/go-journal/teoria/tipos-de-dados"
-	variaveisconstantes "github.com/peRodrigues/go-journal/teoria/variaveis-constantes"
+
+	"github.com/peRodrigues/go-journal/teoria/arrays-slices"
+	"github.com/peRodrigues/go-journal/teoria/structs"
+	"github.com/peRodrigues/go-journal/teoria/tipos-de-dados"
+	"github.com/peRodrigues/go-journal/teoria/variaveis-constantes"
 )
 
 func Teoria() {
@@ -13,4 +15,5 @@ func Teoria() {
 	tiposdedados.Tiposdedados()
 	variaveisconstantes.Variaveisconstantes()
 	arraysslices.Arraysslices()
+	structs.Structs()
 }
