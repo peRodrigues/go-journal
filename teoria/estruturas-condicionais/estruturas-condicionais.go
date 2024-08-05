@@ -3,7 +3,7 @@ package estruturascondicionais
 import "fmt"
 
 func Estruturascondicionais() {
-	fmt.Println("Estruturas Condicionais")
+	fmt.Println("Estruturas Condicionais:")
 	if irapraia() {
 		fmt.Println("Você vai à pria!")
 	} else {
